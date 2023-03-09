@@ -1,0 +1,14 @@
+.search-feed {
+    padding: 10px;
+}
+
+.search-feed-head{
+    color: var(--text-primary);
+    margin: 15px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .search-feed {
+        padding: 0;
+    }
+}

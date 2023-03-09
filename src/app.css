@@ -1,0 +1,13 @@
+.app {
+    background: var(--background);
+}
+
+.app-body {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .app-body {
+        flex-direction: column;
+    }
+}

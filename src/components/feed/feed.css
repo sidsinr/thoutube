@@ -1,0 +1,18 @@
+.feed{
+    min-height: 95vh;
+    padding-bottom: 30px;
+}
+
+.feed-header {
+    color: var(--text-primary);
+    padding: 20px 30px;
+}
+.feed-header span{
+    color: var(--theme);
+}
+
+@media screen and (max-width: 600px) {
+    .feed-header {
+        padding: 10px;
+    }
+}
